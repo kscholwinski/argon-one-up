@@ -1,0 +1,40 @@
+Update #11Backers only
+First time installation for Shell only
+user avatar
+Argon FortyCreator
+January 30, 2026
+
+For backers who received the Shell Only version: please note that your config.txt is not yet configured, unlike the pre-assembled CM5 Laptop Core Units. You must connect an external USB mouse and keyboard for the first-time installation, as the laptop's built-in keyboard and trackpad will not work until the settings below are applied.
+
+To enable the keyboard, trackpad, and external antenna, follow these steps:
+
+1. Open the terminal and type:
+sudo nano /boot/firmware/config.txt
+ 
+
+2. Scroll to the bottom of the file.
+
+3. Under the [all] section, add these exact lines:
+
+dtparam=uart0=on
+
+dtoverlay=dwc2,dr_mode=host
+
+dtparam=pciex1_gen=3
+
+usb_max_current_enable=1
+
+dtparam=ant2
+
+4. To Save: Press Ctrl + O, then press Enter.
+
+5. To Exit: Press Ctrl + X.
+
+6. To Finish: Type sudo reboot and press Enter.
+
+We updated the quick guide:
+
+https://argon40.com/blogs/argon-resources/argon-one-up-raspberry-pi-cm5-laptop-quick-start-guide
+
+
+ 
