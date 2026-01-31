@@ -1,0 +1,13 @@
+Update #12
+Running the Argon ONE UP Installation script for Battery Status and other configuration
+user avatar
+Argon FortyCreator
+January 31, 2026
+
+There was a misprint in the Quick Start Guide that came with the initial shipment of Argon ONE UP on how to run the Argon ONE UP Script.
+
+The correct command that you need to type in the Terminal to run the Script is: 
+
+               curl https://download.argon40.com/argononeup.sh | bash
+
+This script works for the Raspberry Pi OS.
