@@ -1,0 +1,33 @@
+Update #13
+Display Configuration Procedure for shell only
+user avatar
+Argon FortyCreator
+February 2, 2026
+
+To set the resolution to 1920x1200 @ 60Hz, follow these steps to edit the cmdline.txt file:
+
+The cmdline.txt file contains the boot parameters for the kernel.
+
+1. Open a terminal and edit the cmdline.txt file with administrative privileges:
+
+sudo nano /boot/firmware/cmdline.txt
+
+2. Add the following parameter at the end of the existing line (do not create a new line; everything in this file must stay on a single line):
+
+video=HDMI-A-2:1920x1200@60e
+
+3. Press Ctrl+O, then Enter,  Ctrl+X to save the changes and exit the editor.
+
+4. Reboot your Raspberry Pi for the new settings to take effect:
+
+reboot
+
+5. How to verify after boot
+
+Run:
+
+xrandr
+
+or
+
+cat /sys/class/drm/card*-HDMI-A-2/modes
