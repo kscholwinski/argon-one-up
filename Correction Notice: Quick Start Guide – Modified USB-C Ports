@@ -1,0 +1,30 @@
+Correction Notice: Quick Start Guide – Modified USB-C Ports
+	
+Posted by Argon Forty
+Feb 5, 2026
+	
+	
+View on Kickstarter
+	
+
+We would like to formally notify users of a misprint in the Quick Start Guide regarding the functionality of the two adjacent modified USB-C ports.
+
+These ports are purpose-built to support the dedicated 40-pin GPIO module and are not intended for general USB-C use.
+
+The correct specifications are as follows:
+
+The primary and intended function of these two USB-C ports is GPIO expansion via the special 40-pin GPIO module.
+
+ - Only one of the two ports supports USB data transmission.
+
+ - The supported data connection is limited to USB 2.0 speeds.
+
+To address this, a revised PDF version of the Quick Start Guide has been uploaded and is available at the following official resources:
+
+https://argon40.com/blogs/argon-resources/argon-one-up-raspberry-pi-cm5-laptop-quick-start-guide
+
+https://wiki.argon40.com/en/AssemblyGuides/ONE_UP/OneUP_resource
+
+These documentation resources will be continually updated to reflect the latest corrections, clarifications, and community feedback.
+
+We regret any confusion caused by this documentation error and appreciate your understanding. Thank you for your continued support and cooperation.
